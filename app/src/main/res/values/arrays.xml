@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Names of games with printed tickets-->
+    <string-array name="game_names_scan">
+        <item>Milli Piyango</item>
+        <item>Sayısal Loto</item>
+        <item>Süper Loto</item>
+        <item>On Numara</item>
+        <item>Şans Topu</item>
+    </string-array>
+
+    <string-array name="game_names">
+        <item>Milli Piyango</item>
+        <item>Sayısal Loto</item>
+        <item>Süper Loto</item>
+        <item>On Numara</item>
+        <item>Şans Topu</item>
+        <item>Süper Piyango</item>
+        <item>Banko Piyango</item>
+        <item>Süper Sayısal Loto</item>
+        <item>Para Loto</item>
+        <item>Süper On Numara</item>
+        <item>Süper Şans Topu</item>
+    </string-array>
+
+    <string-array name="reminder_default_games">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="game_codes_scan">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="game_codes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="milli_piyango_ticket_types">
+        <item>@string/milli_piyango_type_action_new</item>
+        <item>@string/milli_piyango_type_action_classical</item>
+<!--        <item>@string/milli_piyango_type_action_special</item>-->
+    </string-array>
+
+    <string-array name="milli_piyango_ticket_type_values">
+        <item>1</item>
+        <item>2</item>
+<!--        <item>3</item>-->
+    </string-array>
+
+    <!--Stores the number of possible row variations a ticket may have in the same order as game_names array-->
+    <integer-array name="game_row_variations">
+        <item>2</item>
+        <item>8</item>
+        <item>6</item>
+        <item>5</item>
+        <item>5</item>
+        <item>1</item>
+        <item>1</item>
+        <item>8</item>
+        <item>6</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+
+    <!--Stores the limited number of possible row variations a ticket may have in the same order as game_names array-->
+    <integer-array name="game_row_variations_limited">
+        <item>2</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+
+    <!--To be used as preference-->
+    <string-array name="row_numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+<!--        <item>5</item>-->
+<!--        <item>6</item>-->
+<!--        <item>7</item>-->
+<!--        <item>8</item>-->
+    </string-array>
+
+<!--    To be used to help user on date picker-->
+    <string-array name="date_picker_definitions">
+        <item>@string/date_direction_1</item>
+        <item>@string/date_direction_2</item>
+        <item>@string/date_direction_3</item>
+        <item>@string/date_direction_4</item>
+        <item>@string/date_direction_5</item>
+        <item>@string/date_direction_6</item>
+        <item>@string/date_direction_6</item>
+        <item>@string/date_direction_2</item>
+        <item>@string/date_direction_3</item>
+        <item>@string/date_direction_4</item>
+        <item>@string/date_direction_5</item>
+    </string-array>
+
+    <string-array name="row_names">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+
+    <!-- Used in reminder time setting -->
+    <string-array name="reminder_times">
+        <item>@string/time_min_15</item>
+        <item>@string/time_min_30</item>
+        <item>@string/time_hr_1</item>
+        <item>@string/time_hr_2</item>
+        <item>@string/time_hr_4</item>
+        <item>@string/time_hr_8</item>
+        <item>@string/time_hr_12</item>
+        <item>@string/time_day_1</item>
+        <item>@string/time_day_2</item>
+    </string-array>
+
+    <string-array name="reminder_times_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+</resources>

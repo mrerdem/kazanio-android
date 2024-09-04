@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintDimensionRatio="V,24:25"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewTicket"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_margin="5dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/b"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top">
+
+                    <ImageView
+                        android:id="@+id/overlay_ticket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/c"
+                    android:orientation="vertical"
+                    android:gravity="top|center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!--Area above number area-->
+                    <View
+                        android:id="@+id/d"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="31">
+                    </View>
+
+                    <TextView
+                        android:id="@+id/tv_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="11"
+                        android:fontFamily="@font/inconsolata"
+                        android:gravity="center_horizontal"
+                        android:includeFontPadding="false"
+                        android:letterSpacing="0.4"
+                        android:textColor="#333333"
+                        app:autoSizeTextType="uniform" />
+
+                    <!--Area below number area-->
+                    <LinearLayout
+                        android:id="@+id/g"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="58"
+                        android:orientation="vertical">
+
+                        <!--Gap between date & number-->
+                        <View
+                            android:id="@+id/z"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/tv_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="6"
+                            android:fontFamily="@font/oswald_light"
+                            android:gravity="center_horizontal"
+                            android:includeFontPadding="false"
+                            android:textColor="#333333"
+                            app:autoSizeTextType="uniform" />
+
+                        <!--Gap between date & price-->
+                        <View
+                            android:id="@+id/h"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="11"/>
+
+                        <LinearLayout
+                            android:id="@+id/i"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="8">
+
+                            <TextView
+                                android:id="@+id/j"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="16dp"
+                                android:layout_weight="1"
+                                android:autoSizeTextType="uniform"
+                                android:fontFamily="@font/oswald_light"
+                                android:includeFontPadding="false"
+                                android:text="TOPLAM"
+                                android:textAlignment="textStart"
+                                android:textColor="#333333" />
+
+                            <TextView
+                                android:id="@+id/tv_price"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="16dp"
+                                android:layout_weight="1"
+                                android:autoSizeTextType="uniform"
+                                android:fontFamily="@font/oswald_light"
+                                android:includeFontPadding="false"
+                                android:textAlignment="textEnd"
+                                android:textColor="#333333" />
+
+                        </LinearLayout>
+
+                        <!--Gap under cost-->
+                        <View
+                            android:id="@+id/k"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="29"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="?android:attr/listDivider" />
+
+                    <!--8th of ticket height to make in total 6:9 ratio (ticket only is 3:4)-->
+                    <LinearLayout
+                        android:id="@+id/l"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="14"
+                        android:gravity="center"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/tv_result"
+                            android:layout_width="match_parent"
+                            android:gravity="center_horizontal"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/text_result_checking"
+                            app:autoSizeTextType="uniform" />
+
+                        <ProgressBar
+                            android:id="@+id/loadingAnimation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:indeterminate="true" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

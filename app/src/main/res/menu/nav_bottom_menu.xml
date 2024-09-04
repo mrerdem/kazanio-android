@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_scan"
+        android:title="@string/label_nav_scan"
+        android:icon="@drawable/ic_camera" />
+    <item android:id="@+id/nav_tickets"
+        android:title="@string/label_nav_tickets"
+        android:icon="@drawable/ic_menu_my_tickets" />
+    <item android:id="@+id/nav_stats"
+        android:title="@string/label_nav_stats"
+        android:icon="@drawable/ic_nav_stats" />
+</menu>

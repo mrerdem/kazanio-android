@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:key="reminderSwitch"
+        android:title="@string/pref_title_draw_reminders_activate"
+        android:defaultValue="1"/>
+
+    <MultiSelectListPreference
+        android:key="reminderGames"
+        android:title="@string/pref_title_draw_reminders_active_games"
+        android:summary="@string/pref_summary_draw_reminders_active_games"
+        android:entries="@array/game_names"
+        app:entryValues="@array/game_codes"
+        android:defaultValue="@array/reminder_default_games"/>
+
+    <ListPreference
+        android:entryValues="@array/reminder_times_values"
+        android:key="reminderTime"
+        android:title="@string/pref_title_draw_reminders_time"
+        app:entries="@array/reminder_times"
+        android:defaultValue="3"
+        app:useSimpleSummaryProvider="true"/>
+
+    <SwitchPreference
+        android:key="omitExisting"
+        android:title="@string/pref_title_draw_reminders_existing"
+        android:summary="@string/pref_summary_draw_reminders_existing"
+        android:defaultValue="1"/>
+
+    <Preference
+        android:key="info"
+        android:summary="@string/pref_summary_draw_reminders_info"
+        app:allowDividerAbove="true"
+        app:icon="@drawable/ic_info_black_24dp"
+        android:selectable="false">
+    </Preference>
+
+</PreferenceScreen>

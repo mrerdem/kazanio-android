@@ -1,0 +1,14 @@
+https://shapeshifter.design/
+
+import svg with green contour (3px width, 2e7d32ff color)
+
+trimPathEnd
+    fromValue: 0.1
+    toValue: 0.1
+
+trimPathOffset
+    fromValue:0
+    toValue:1
+    endTime:2000
+
+export animated vector drawable

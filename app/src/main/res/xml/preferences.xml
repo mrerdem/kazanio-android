@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/preferences_group_label_scanning">
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/game_names_scan"
+            android:entryValues="@array/game_codes_scan"
+            android:key="defaultGameType"
+            android:summary="%s"
+            android:title="@string/pref_title_default_game_type"/>
+
+        <ListPreference
+            android:shouldDisableView="true"
+            android:defaultValue="1"
+            android:entries="@array/milli_piyango_ticket_types"
+            android:entryValues="@array/milli_piyango_ticket_type_values"
+            android:key="defaultMPTicketType"
+            android:summary="%s"
+            android:title="@string/pref_title_default_milli_piyango_ticket_type"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/row_numbers"
+            android:entryValues="@array/row_numbers"
+            android:key="defaultRowNumber"
+            android:summary="%s"
+            android:title="@string/pref_title_default_row_num"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preferences_group_label_interface">
+
+        <SwitchPreference
+            android:defaultValue="0"
+            android:key="switchScreenAwake"
+            android:summary="@string/pref_summary_keep_screen_on"
+            android:title="@string/pref_title_keep_screen_on"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preferences_group_label_notifications">
+
+        <Preference
+            android:title="@string/pref_title_draw_reminders"
+            app:fragment="com.creadeep.kazanio.SettingsRemindersFragment"
+            android:summary="@string/pref_summary_draw_reminders"/>
+
+        <SwitchPreference
+            android:key="exactTime"
+            android:title="@string/pref_title_draw_reminders_timing"
+            android:summary="@string/pref_summary_draw_reminders_timing"
+            android:defaultValue="1"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

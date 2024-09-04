@@ -1,0 +1,166 @@
+<resources>
+    <!--General Strings-->
+    <string name="app_name">Kazanio</string>
+    <string name="label_nav_scan">Scan</string>
+    <string name="label_nav_tickets">My Tickets</string>
+    <string name="label_nav_stats">Stats</string>
+    <string name="notification_channel_name_results">Drawing results</string>
+    <string name="notification_channel_description_results">Provides drawing results</string>
+    <string name="notification_channel_name_reminders">Draw reminders</string>
+    <string name="notification_channel_description_reminders">Provides reminders before draws</string>
+    <string name="notification_title_result_available_single">A new result is available</string>
+    <string name="notification_title_result_available_multiple">New results are available</string>
+    <string name="notification_text_result_available">Tap to see</string>
+    <string name="notification_title_reminder">A %s draw is near</string>
+    <string name="notification_text_reminder">Tap to create a ticket</string>
+    <string name="tab_name_all">All</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kazanio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ticket_removal_info">Ticket deleted</string>
+    <string name="dialog_title_delete">Delete ticket?</string>
+    <string name="dialog_accept">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+    <string name="help_activity_title">Help</string>
+    <string name="title_drawer_rate">Rate on Google Play</string>
+    <string name="title_drawer_subscription">Remove ads</string>
+
+    <!--Scan Fragment-->
+    <string name="row_number_action_title">Row number:</string>
+
+    <!--Result Fragment-->
+    <string name="result_activity_title">Ticket info</string>
+    <string name="delete_button_title">Delete</string>
+    <string name="text_snackbar_notification_on">Auto notify is ON</string>
+    <string name="text_snackbar_notification_off">Auto notify is OFF</string>
+    <string name="text_snackbar_result_updated">Result updated</string>
+    <string name="text_result_undrawn">Not drawn yet</string>
+    <string name="text_result_unannounced">Results are not announced yet</string>
+    <string name="text_error_connection">Connection error!</string>
+    <string name="text_result_checking">Fetching the result</string>
+    <string name="share_button_title">Share</string>
+    <string name="label_share_target">Choose an app</string>
+
+    <!--Tickets Fragment-->
+    <string name="empty_db_warning">Scan a ticket or use \u2A01 button on the top right to manually add a ticket.</string>
+    <string name="empty_db_warning_stats">Scan a ticket or use \u2A01 button on the top right of My Tickets screen to manually add a ticket.</string>
+
+    <!--Stats Fragment-->
+    <string name="tv_profit_label">EARNINGS</string>
+    <string name="tv_loss_label">TICKET COST</string>
+
+    <!--Settings Activity-->
+    <string name="settings_activity_title">Settings</string>
+    <string name="preferences_group_label_scanning">Scanning</string>
+    <string name="preferences_group_label_interface">Interface</string>
+    <string name="preferences_group_label_notifications">Notifications</string>
+    <string name="pref_title_default_row_num">Default number of rows</string>
+    <string name="pref_title_default_game_type">Default lottery type</string>
+    <string name="pref_title_default_milli_piyango_ticket_type">Default Milli Piyango ticket type</string>
+    <string name="pref_title_keep_screen_on">Keep screen on</string>
+    <string name="pref_summary_keep_screen_on">Prevents screen from turning off while the app is open</string>
+    <string name="pref_title_draw_reminders">Draw reminders</string>
+    <string name="pref_summary_draw_reminders">Reminds to play before draws</string>
+    <string name="pref_summary_draw_reminders_info">You may need to deactivate battery optimizations for Kazanio to receive reminders on time.</string>
+    <string name="pref_title_draw_reminders_time">Timing</string>
+    <string name="pref_title_draw_reminders_active_games">Lotteries</string>
+    <string name="pref_summary_draw_reminders_active_games">Select the lotteries to remind</string>
+    <string name="pref_title_draw_reminders_existing">Do not remind for existing tickets</string>
+    <string name="pref_summary_draw_reminders_existing">Prevents draw reminders if you already have a ticket</string>
+    <string name="pref_title_draw_reminders_activate">Reminder notifications</string>
+    <string name="pref_title_draw_reminders_timing">Improve timing</string>
+    <string name="pref_summary_draw_reminders_timing">Enable if notifications are not shown on time</string>
+
+    <!--About Activity-->
+    <string name="about_activity_title">About</string>
+    <string name="tv_about_licenses">Open Source Licenses:</string>
+
+    <!--Intro (Tutorial) Activity-->
+    <string name="title_tutorial_overview">Welcome to Kazanio</string>
+    <string name="text_tutorial_overview">Kazanio gives you lottery results instantly. It also stores all your tickets and shows your net earnings.</string>
+    <string name="title_tutorial_scan">Ticket Scanning</string>
+    <string name="text_tutorial_scan">Kazanio scans lottery tickets using the camera of your phone. So, it needs your camera permission.</string>
+    <string name="title_tutorial_result">Learning the Result</string>
+    <string name="text_tutorial_result">Once scanning is completed, the result is shown under the ticket. If the lottery is not drawn yet, you will be informed via a notification.</string>
+    <string name="title_tutorial_permission">Camera permission</string>
+    <string name="text_tutorial_permission">Kazanio needs camera permission to scan tickets.</string>
+    <string name="tutorial_instruction_select_game">To scan a ticket, first select the lottery type …</string>
+    <string name="tutorial_instruction_select_type">… then select the\nrow number / ticket type.</string>
+    <string name="tutorial_instruction_scan_ticket">To add a ticket, use scanning feature …</string>
+    <string name="tutorial_instruction_add_ticket">… or tap here to manually enter ticket info.</string>
+    <string name="tutorial_button_skip">Skip</string>
+    <string name="tutorial_permission_warning">Kazanio needs your permission.</string>
+
+    <!--License Activity-->
+    <string name="title_license_activity">License Aggrement</string>
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <string name="tv_about_mp_legal">\"Milli Piyango\", \"Sayısal Loto\", \"Süper Loto\", \"On Numara\" and \"Şans Topu\" brands and logos belong to Milli Piyango İdaresi Genel Müdürlüğü.</string>
+
+    <!--Main Activity-->
+    <string name="milli_piyango_type_action_new">Terminal (New)</string>
+    <string name="milli_piyango_type_action_old">Classic</string>
+    <string name="milli_piyango_type_action_special">New Year\'s Eve</string>
+    <string name="milli_piyango_type_action_classical">Classical</string>
+    <string name="milli_piyango_type_action_new_short">T</string>
+    <string name="milli_piyango_type_action_special_short">N</string>
+    <string name="milli_piyango_type_action_classical_short">C</string>
+    <string name="milli_piyango_type_action_title">Ticket type:</string>
+    <string name="row_number_action_suffix">(Soon)</string>
+    <string name="dialog_title_expired">Warning</string>
+    <string name="dialog_message_expired">Please install/update the app from Play Store.</string>
+
+    <!--    Material-Intro-->
+    <string name="mi_content_description_back">Back</string>
+    <string name="mi_content_description_next">Next</string>
+    <string name="mi_content_description_next_finish">Next/Finish</string>
+    <plurals name="mi_label_grant_permission">
+        <item quantity="one">Grant permission</item>
+    </plurals>
+    <string name="mi_label_button_cta">Skip intro</string>
+    <string name="btn_license_retrofit">retrofit</string>
+    <string name="btn_license_materialintro">material-intro</string>
+    <string name="btn_license_taptargetview">TapTargetView</string>
+    <string name="text_warning_subscription_not_available">Your device does not support subscriptions.</string>
+
+    <!-- Ticket generation -->
+    <string name="date_direction_1">Select 9th, 19th or 29th.</string>
+    <string name="date_direction_2">Select a Wednesday or Saturday.</string>
+    <string name="date_direction_3">Select a Thursday.</string>
+    <string name="date_direction_4">Select a Monday.</string>
+    <string name="date_direction_5">Select a Wednesday.</string>
+    <string name="date_direction_6">Select a day.</string>
+    <string name="incorrect_date_warning">Date is updated with the closest draw date.</string>
+    <string name="number">Number</string>
+    <string name="row_number">Row number</string>
+    <string name="fraction">Fraction</string>
+    <string name="date">Date</string>
+    <string name="lottery_type">Lottery type</string>
+    <string name="button_text_manual">Manual</string>
+    <string name="button_text_random">Random</string>
+    <string name="button_text_most">Most freq.</string>
+    <string name="button_text_least">Least freq.</string>
+    <string name="mp_fraction_full">Full</string>
+    <string name="mp_fraction_half">Half</string>
+    <string name="mp_fraction_quarter">Quarter</string>
+    <string name="warning_incorrect_number_mp">Enter a number with 6 digits.</string>
+    <string name="warning_incorrect_number_bp">Enter a number with 5 digits.</string>
+    <string name="warning_incorrect_number_mp_long">Enter a number with 7 digits.</string>
+    <string name="warning_incorrect_number_on">Select 10 numbers for each row.</string>
+    <string name="warning_incorrect_number_st">Select 5+1 numbers for each row.</string>
+    <string name="warning_incorrect_number">Select 6 numbers for each row.</string>
+
+    <!-- Reminder times-->
+    <string name="time_min_15">15 minutes before</string>
+    <string name="time_min_30">30 minutes before</string>
+    <string name="time_hr_1">1 hour before</string>
+    <string name="time_hr_2">2 hours before</string>
+    <string name="time_hr_4">4 hours before</string>
+    <string name="time_hr_8">8 hours before</string>
+    <string name="time_hr_12">12 hours before</string>
+    <string name="time_day_1">1 day before</string>
+    <string name="time_day_2">2 days before</string>
+
+</resources>

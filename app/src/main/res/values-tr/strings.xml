@@ -1,0 +1,166 @@
+<resources>
+    <!--General Strings-->
+    <string name="app_name">Kazanio</string>
+    <string name="label_nav_scan">Tara</string>
+    <string name="label_nav_tickets">Biletlerim</string>
+    <string name="label_nav_stats">Durum</string>
+    <string name="notification_channel_name_results">Çekiliş sonuçları</string>
+    <string name="notification_channel_description_results">Yeni sonuçları otomatik olarak bildirir</string>
+    <string name="notification_channel_name_reminders">Çekiliş hatırlatıcıları</string>
+    <string name="notification_channel_description_reminders">Çekilişlerden önce hatırlatma yapar</string>
+    <string name="notification_text_result_available">Görmek için dokunun</string>
+    <string name="notification_title_result_available_single">Yeni bir sonuç hazır</string>
+    <string name="notification_title_result_available_multiple">Yeni sonuçlar hazır</string>
+    <string name="notification_title_reminder">%s çekilişi yaklaşıyor</string>
+    <string name="notification_text_reminder">Bilet oluşturmak için dokun</string>
+    <string name="tab_name_all">Tümü</string>
+    <string name="navigation_drawer_open">Menüyü aç</string>
+    <string name="navigation_drawer_close">Menüyü kapat</string>
+    <string name="nav_header_title">Kazanio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="ticket_removal_info">Bilet silindi</string>
+    <string name="dialog_title_delete">Bileti sil?</string>
+    <string name="dialog_accept">Tamam</string>
+    <string name="dialog_cancel">Vazgeç</string>
+    <string name="dialog_add">Ekle</string>
+    <string name="title_drawer_rate">Google Play\'de puan ver</string>
+    <string name="title_drawer_subscription">Reklamları kaldır</string>
+
+    <!--Scan Fragment-->
+    <string name="row_number_action_title">Kolon sayısı:</string>
+
+    <!--Result Fragment-->
+    <string name="result_activity_title">Bilet bilgisi</string>
+    <string name="delete_button_title">Sil</string>
+    <string name="text_snackbar_notification_on">Otomatik bildirim açık</string>
+    <string name="text_snackbar_notification_off">Otomatik bildirim kapalı</string>
+    <string name="text_snackbar_result_updated">Sonuç güncellendi</string>
+    <string name="text_result_undrawn">Henüz çekilmedi</string>
+    <string name="text_result_unannounced">Sonuçlar henüz açıklanmadı</string>
+    <string name="text_error_connection">Bağlantı hatası!</string>
+    <string name="text_result_checking">Sonuç sorgulanıyor</string>
+    <string name="share_button_title">Paylaş</string>
+    <string name="label_share_target">Bir uygulama seçin</string>
+
+    <!--Tickets Fragment-->
+    <string name="empty_db_warning">Bilet eklemek için tarama ekranını veya sağ üstteki \u2A01 butonunu kullanın.</string>
+    <string name="empty_db_warning_stats">Bilet eklemek için tarama ekranını veya Biletlerim ekranında sağ üstteki \u2A01 butonunu kullanın.</string>
+
+    <!--Stats Fragment-->
+    <string name="tv_profit_label">KAZANÇ</string>
+    <string name="tv_loss_label">BİLET ÜCRETİ</string>
+
+    <!--Settings Activity-->
+    <string name="settings_activity_title">Ayarlar</string>
+    <string name="preferences_group_label_scanning">Tarama</string>
+    <string name="preferences_group_label_interface">Arayüz</string>
+    <string name="preferences_group_label_notifications">Bildirimler</string>
+    <string name="pref_title_default_row_num">Varsayılan kolon sayısı</string>
+    <string name="pref_title_default_game_type">Varsayılan piyango türü</string>
+    <string name="pref_title_default_milli_piyango_ticket_type">Varsayılan Milli Piyango bilet türü</string>
+    <string name="pref_title_keep_screen_on">Ekranı açık tut</string>
+    <string name="pref_summary_keep_screen_on">Uygulama açıkken ekranın kapanmasını engeller</string>
+    <string name="pref_title_draw_reminders">Çekiliş hatırlatıcı</string>
+    <string name="pref_summary_draw_reminders">Çekilişlerden önce bilet oluşturmayı hatırlatır</string>
+    <string name="pref_summary_draw_reminders_info">Hatırlatıcıların düzgün çalışması için telefon ayarlarından pil optimizasyonunu Kazanio için devre dışı bırakmanız gerekebilir.</string>
+    <string name="pref_title_draw_reminders_time">Zamanlama</string>
+    <string name="pref_title_draw_reminders_active_games">Oyunlar</string>
+    <string name="pref_summary_draw_reminders_active_games">Hatırlatmaların hangi şans oyunları için yapılacağını belirler</string>
+    <string name="pref_title_draw_reminders_existing">Bilet varsa bildirme</string>
+    <string name="pref_summary_draw_reminders_existing">Zaten bileti olan çekilişler için hatırlatmaları önler</string>
+    <string name="pref_title_draw_reminders_activate">Hatırlatma bildirimleri</string>
+    <string name="pref_title_draw_reminders_timing">Zamanlamayı iyileştir</string>
+    <string name="pref_summary_draw_reminders_timing">Bildirimler geç geliyorsa aktif edin</string>
+
+    <!--About Activity-->
+    <string name="about_activity_title">Hakkında</string>
+    <string name="tv_about_licenses">Açık Kaynak Lisansları:</string>
+
+    <!--Intro (Tutorial) Activity-->
+    <string name="text_tutorial_overview">Kazanio, şans oyunu biletlerinizin sonucunu anında öğrenmenizi sağlar. Ayrıca tüm biletlerinizi saklar ve toplam kazancınızı gösterir.</string>
+    <string name="title_tutorial_overview">Kazanio\'ya Hoşgeldiniz</string>
+    <string name="title_tutorial_scan">Bilet Tarama</string>
+    <string name="text_tutorial_result">Tarama tamamlandığında kazanılan ikramiye biletin altında gösterilir. Çekiliş henüz gerçekleşmemişse sonuç bildirimle iletilir.</string>
+    <string name="title_tutorial_result">Sonucu Öğrenme</string>
+    <string name="text_tutorial_scan">Kazanio şans oyunu biletlerini telefonunuzun kamerasını kullanarak tarar. Bunun için kamera iznine ihtiyaç duyar.</string>
+    <string name="tutorial_instruction_select_game">Bir bilet taratmak için önce oyun türünü seçin …</string>
+    <string name="tutorial_instruction_select_type">… sonra kolon sayısı\nveya bilet tarzını seçin.</string>
+    <string name="tutorial_instruction_scan_ticket">Bir bilet eklemek için tarama ekranını kullanın …</string>
+    <string name="tutorial_instruction_add_ticket">… veya buraya dokunarak bilet bilgilerini elle girin.</string>
+    <string name="text_tutorial_permission" >Kazanio\'nun biletleri tarayabilmesi için kamera iznine ihtiyacı var.</string>
+    <string name="title_tutorial_permission">Kamera izni</string>
+    <string name="tutorial_button_skip" >Atla</string>
+    <string name="tutorial_permission_warning">Kazanio\'nun kamera izninize ihtiyacı var.</string>
+
+    <!--License Activity-->
+    <string name="title_license_activity">Lisans Sözleşmesi</string>
+    <string name="title_privacy_policy">Gizlilik Politikası</string>
+    <string name="tv_about_mp_legal">\"Milli Piyango\", \"Sayısal Loto\", \"Süper Loto\", \"On Numara\" ve \"Şans Topu\" markaları ve logoları Milli Piyango İdaresi Genel Müdürlüğü\'ne aittir.</string>
+
+    <!--Main Activity-->
+    <string name="milli_piyango_type_action_title">Bilet türü:</string>
+    <string name="milli_piyango_type_action_old">Klasik</string>
+    <string name="milli_piyango_type_action_new">Terminal (Yeni)</string>
+    <string name="milli_piyango_type_action_special">Yılbaşı</string>
+    <string name="milli_piyango_type_action_classical">Klasik</string>
+    <string name="milli_piyango_type_action_new_short">T</string>
+    <string name="milli_piyango_type_action_special_short">Y</string>
+    <string name="milli_piyango_type_action_classical_short">K</string>
+    <string name="row_number_action_suffix">(Yakında)</string>
+    <string name="dialog_message_expired">Lütfen uygulamayı Play Store\'dan yükleyin/güncelleyin.</string>
+    <string name="dialog_title_expired">Uyarı</string>
+
+    <!--    Material-Intro-->
+    <string name="mi_content_description_back">Geri</string>
+    <string name="mi_content_description_next">İleri</string>
+    <string name="mi_content_description_next_finish">Sonraki/Bitir</string>
+    <plurals name="mi_label_grant_permission">
+        <item quantity="one">İzin ver</item>
+    </plurals>
+    <string name="mi_label_button_cta">Tanıtımı atla</string>
+    <string name="btn_license_retrofit">retrofıt</string>
+    <string name="btn_license_materialintro">materıal-ıntro</string>
+    <string name="help_activity_title">Yardım</string>
+    <string name="btn_license_taptargetview">TapTargetVıew</string>
+    <string name="text_warning_subscription_not_available">Cihazınız satın almayı desteklemiyor.</string>
+
+    <!-- Ticket generation -->
+    <string name="date_direction_1">Ayın 9, 19 veya 29\'unu seçin.</string>
+    <string name="date_direction_2">Herhangi bir Çarşamba veya Cumartesiyi seçin.</string>
+    <string name="date_direction_3">Herhangi bir Perşembe gününü seçin.</string>
+    <string name="date_direction_4">Herhangi bir Pazartesi gününü seçin.</string>
+    <string name="date_direction_5">Herhangi bir Çarşamba gününü seçin.</string>
+    <string name="date_direction_6">Herhangi bir gün seçin.</string>
+    <string name="incorrect_date_warning">Tarih en yakın çekiliş günüyle değiştirildi.</string>
+    <string name="number">Numara</string>
+    <string name="row_number">Kolon sayısı</string>
+    <string name="fraction">Bilet türü</string>
+    <string name="date">Tarih</string>
+    <string name="lottery_type">Piyango türü</string>
+    <string name="button_text_manual">Elle</string>
+    <string name="button_text_random">Rastgele</string>
+    <string name="button_text_most">Çok çıkan</string>
+    <string name="button_text_least">Az çıkan</string>
+    <string name="mp_fraction_full">Tam</string>
+    <string name="mp_fraction_half">Yarım</string>
+    <string name="mp_fraction_quarter">Çeyrek</string>
+    <string name="warning_incorrect_number_mp">6 rakamdan oluşan bir numara seçin.</string>
+    <string name="warning_incorrect_number_bp">5 rakamdan oluşan bir numara seçin.</string>
+    <string name="warning_incorrect_number_mp_long">7 rakamdan oluşan bir numara seçin.</string>
+    <string name="warning_incorrect_number_on">Her kolon için 10 numara seçin.</string>
+    <string name="warning_incorrect_number_st">Her kolon için 5+1 numara seçin.</string>
+    <string name="warning_incorrect_number">Her kolon için 6 numara seçin.</string>
+
+    <!-- Reminder times-->
+    <string name="time_min_15">15 dakika önce</string>
+    <string name="time_min_30">30 dakika önce</string>
+    <string name="time_hr_1">1 saat önce</string>
+    <string name="time_hr_2">2 saat önce</string>
+    <string name="time_hr_4">4 saat önce</string>
+    <string name="time_hr_8">8 saat önce</string>
+    <string name="time_hr_12">12 saat önce</string>
+    <string name="time_day_1">1 gün önce</string>
+    <string name="time_day_2">2 gün önce</string>
+
+</resources>

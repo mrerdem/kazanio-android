@@ -1,0 +1,9 @@
+AB: TOP LINE'S CENTER'S VERTICAL POSITION (66)
+CD = AB + 15 (81, CENTER ARROWHEAD LEFT & RIGHT)
+EF = AB + 9 (75, TOP SCAN LINE WITH 16 WIDTH)
+GH = AB + 3 (69, CENTER ARROWHEAD TIP)
+
+- Copy draft file.
+- Get the top position value (AB) from the viewfinder_overlay file.
+- Find and replace the values with CASE SENSITIVITY.
+

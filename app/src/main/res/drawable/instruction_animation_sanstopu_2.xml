@@ -1,0 +1,120 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="480dp"
+            android:height="640dp"
+            android:viewportWidth="480"
+            android:viewportHeight="640">
+            <path
+                android:name="path"
+                android:pathData="M 107 320 L 65 320"
+                android:strokeColor="#2e7d32"
+                android:strokeWidth="4"/>
+            <path
+                android:name="path_1"
+                android:pathData="M 240 187 L 240 82"
+                android:strokeColor="#2e7d32"
+                android:strokeWidth="4"/>
+            <path
+                android:name="path_2"
+                android:pathData="M 373 320 L 415 320"
+                android:strokeColor="#2e7d32"
+                android:strokeWidth="4"/>
+            <path
+                android:name="path_3"
+                android:pathData="M 53 320 L 65 312 L 65 328 Z"
+                android:fillColor="#2e7d32"
+                android:strokeWidth="1"/>
+            <path
+                android:name="path_4"
+                android:pathData="M 232 82 L 240 70 L 248 82 Z"
+                android:fillColor="#2e7d32"
+                android:strokeWidth="1"/>
+            <path
+                android:name="path_6"
+                android:pathData="M 415 312 L 427 320 L 415 328 Z"
+                android:fillColor="#2e7d32"
+                android:strokeWidth="1"/>
+            <path
+                android:fillColor="#000"
+                android:fillAlpha="0.29411765"
+                android:pathData="M110,320A130,130 0 1,1 370,320A130,130 0 1,1 110,320 Z" />
+            <group android:name="group_1">
+                <path
+                    android:name="path_8"
+                    android:pathData="M148.7 292.4q0 1.6-.9 2.8-.9 1.1-2.2 1.6 1.6.4 2.7 1.8 1.2 1.3 1.2 3.1 0 5.7-8 5.7-2 0-3.7-.4v-18.9q2-.5 4-.5 7 0 7 4.8zm-6 3.8q1.9 0 3.1-1 1.3-1 1.3-2.7 0-3.6-5.3-3.6-1.3 0-2.4.3v7zm-1 9.8q2.7 0 4.5-1 1.7-1.1 1.7-3.3 0-2-1.6-3.1-1.7-1-4.2-1h-2.7v8.2q1 .2 2.4.2zm12.7 1h-1.6v-13.6h1.6zm-.8-19q.5 0 .9.3.4.4.4 1 0 .5-.4.8-.4.4-1 .4-.5 0-.8-.4-.3-.3-.3-.9 0-.5.3-.9.3-.3.9-.3zm10.2 18l-.1 1.4q-5.1-.3-5.1-7.3v-13.4h1.6v12.9l.1 2.5.5 2q.4 1 1.1 1.5.8.4 2 .4zm3.4-5.7q.1 2.6 1.6 4.2 1.5 1.5 4 1.5 2.3 0 4.7-1l.2 1.4q-2.4 1-5.1 1-3 0-5-2-2-1.8-2-4.9 0-3.2 1.9-5.3 1.9-2.1 5-2.1 5.7 0 5.8 7.2zm9.5-1.3q0-2.1-1.3-3.3-1.2-1.3-3.2-1.3t-3.3 1.3q-1.3 1.3-1.6 3.3zm9.3 8.4q-1.7 0-2.6-1.3-1-1.2-1-3.1v-8.4h-2.6v-1.2h2.7v-4l1.6-.8v4.8h4.3v1.2h-4.3v8.4q0 3 2 3 1.3 0 1.9-.2l.1 1.2q-.8.4-2.1.4zm6.7-.4h-1.6v-13.6h1.6zm-.8-19q.5 0 .9.3.3.4.3 1 0 .5-.3.8-.4.4-1 .4-.5 0-.8-.4-.4-.3-.4-.9 0-.5.4-.9.3-.3.9-.3zm16.4 19h-1.6v-7.7q0-4.9-4-4.9-1.6 0-3 1.4-1.2 1.3-1.2 3v8.2h-1.6v-10.3q0-1.2-.3-3.3h1.5q.3.8.3 2.4 1.6-2.7 4.6-2.7 5.3 0 5.3 6.2zm25 0l-1.5.3q-.5-1.4-.6-2.7-1.8 2.8-5.2 2.8-4.9 0-4.9-6.4v-7.6h1.6v7.3q0 5.3 3.7 5.3 1.9 0 3.2-1.2 1.4-1.3 1.4-3.2v-8.2h1.6v10.3q0 1.4.7 3.2zm-9-18.2q.6 0 1 .4.3.3.3.9 0 .5-.4.8-.3.4-.9.4-.5 0-.8-.4-.4-.3-.4-.8 0-.6.4-1 .3-.3.8-.3zm5 0q.6 0 1 .4.3.3.3.9 0 .5-.4.8-.3.4-.9.4-.5 0-.9-.4-.3-.3-.3-.8 0-.6.3-1 .4-.3 1-.3zm11.3 5.6q-1.1 0-1.9.7-.7.6-.7 1.6 0 .7.7 1.4.8.8 2.3 1.3 3.6 1.2 3.6 4 0 1.9-1.4 3-1.4 1-3.5 1-2 0-3.8-1.1l.5-1.3q2 1 3.4 1 3.2 0 3.2-2.5 0-1-.7-1.7-.8-.7-2.3-1.2-3.6-1.1-3.6-3.7 0-1.7 1.2-2.8 1.4-1 3.3-1 2 0 3.3 1l-.6 1.3q-1.2-1-3-1zm11.8 13q-1.6 0-2.5-1.3-1-1.2-1-3.1v-8.4h-2.7v-1.2h2.7v-4l1.6-.8v4.8h4.4v1.2h-4.4v8.4q0 3 2 3 1.3 0 2-.2v1.2q-.8.4-2 .4zm25.3-14l-6.1 13.6h-1.4l-5.9-13.6h1.6l5 12 5.2-12zm2.8 7q0 2.5 1.6 4 1.4 1.6 4 1.6 2.2 0 4.7-1l.1 1.4q-2.3 1-5 1-3.1 0-5-2-2-1.8-2-4.9 0-3.2 1.9-5.3 1.9-2.1 4.9-2.1 5.7 0 5.9 7.2zm9.5-1.4q0-2.1-1.3-3.3-1.2-1.3-3.2-1.3t-3.3 1.3q-1.3 1.3-1.6 3.3zm18.8 8q-2.3 5.3-6.2 6.3l-.4-1.3q3.4-.8 5.2-5.5l-.2-.4-5.6-12.7h1.7l5 11.5 4.8-11.5h1.7zm11.5.4q-1.8 0-3-1-1.3-1.1-1.3-2.8 0-5.1 9-5.1 0-2-.9-3-1-1-2.7-1-1.5 0-4.4.8l-.2-1.5q2.3-.7 4.7-.7 5.2 0 5.2 5.7v4.9q0 1.6.4 3.3l-1.4.3-.5-2.2q-1.9 2.3-4.9 2.3zm-2.7-4q0 1.2.8 2 .7.6 2 .6 1.6 0 3.1-1 1.6-1 1.6-2.4v-2.8q-7.5 0-7.5 3.5zm24.7 3.6h-1.6v-7.7q0-4.9-4-4.9-1.7 0-3 1.4-1.3 1.3-1.3 3v8.2h-1.6v-10.3l-.2-3.3h1.5l.3 2.4q1.5-2.7 4.6-2.7 5.3 0 5.3 6.2zm-207.5 40l-1.6.4-6.5-7.5-1.4 1.4v5.7h-1.6v-20.3h1.6v12.8l6.8-6.3 1.6.3-5.8 5.5zm2.2-6.7q0 2.6 1.5 4.2 1.5 1.5 4 1.5 2.3 0 4.8-1l.1 1.4q-2.4 1-5 1-3.1 0-5-2-2-1.8-2-4.9 0-3.2 1.9-5.3 1.8-2.1 4.9-2.1 5.7 0 5.9 7.2zm9.5-1.3q-.1-2.1-1.3-3.3-1.2-1.3-3.2-1.3t-3.3 1.3q-1.3 1.3-1.6 3.3zm16.3 8h-1.6v-7.7q0-4.9-4-4.9-1.6 0-3 1.4-1.2 1.3-1.2 3v8.2h-1.6v-10.3q0-1.2-.3-3.3h1.5q.3.8.3 2.4 1.6-2.7 4.6-2.7 5.3 0 5.3 6.2zm7.5.4q-1.8 0-3-1-1.3-1.1-1.3-2.8 0-5.1 9-5.1 0-2-1-3-.8-1-2.7-1-1.4 0-4.3.8l-.2-1.5q2.3-.7 4.7-.7 5.1 0 5.1 5.7v4.9q0 1.6.5 3.3l-1.4.3-.5-2.2q-1.9 2.3-4.9 2.3zm-2.7-4q0 1.2.7 2 .8.6 2 .6 1.7 0 3.2-1 1.5-1 1.5-2.4v-2.8q-7.4 0-7.4 3.5zm19.5-9h-.5q-1.8 0-3 1.5-1.2 1.4-1.2 3.8v7.3h-1.6v-9.2q0-3-.4-4.4h1.4q.4.8.4 2.7 1.3-3 4.1-3h.8zm7.6 11.6l-.1 1.4q-5.1-.3-5.1-7.3v-13.4h1.6v12.9l.1 2.5.5 2q.4 1 1.1 1.5.8.4 2 .4zm6.1 1.4q-1.8 0-3-1-1.3-1.1-1.3-2.8 0-5.1 9-5.1 0-2-.9-3-1-1-2.7-1-1.5 0-4.4.8l-.2-1.5q2.3-.7 4.7-.7 5.1 0 5.1 5.7v4.9q0 1.6.5 3.3l-1.4.3-.5-2.2q-1.9 2.3-4.9 2.3zm-2.7-4q0 1.2.8 2 .7.6 2 .6 1.6 0 3.1-1t1.5-2.4v-2.8q-7.4 0-7.4 3.5zm19.5-9h-.5q-1.7 0-3 1.5-1.2 1.4-1.2 3.8v7.3h-1.6v-9.2q0-3-.4-4.4h1.4q.4.8.4 2.7 1.3-3 4.1-3h.8zm4 12.6H220v-13.6h1.5zm15.6 0h-1.6v-7.7q0-4.9-4-4.9-1.6 0-3 1.4-1.2 1.3-1.2 3v8.2h-1.6v-10.3q0-1.2-.3-3.3h1.5l.3 2.4q1.5-2.7 4.6-2.7 5.3 0 5.3 6.2zm5.7 0h-1.5v-13.6h1.5zm24.3-7.7v7.7h-1.6v-7.7q0-4.9-4-4.9-1.6 0-3 1.4-1.2 1.3-1.2 3v8.2h-1.6v-20.3h1.6v9.1q1.6-2.7 4.5-2.7 5.3 0 5.3 6.2zm5.7 7.7h-1.6v-13.6h1.6zm-.8-19q.6 0 .9.3.4.4.4 1 0 .5-.4.8-.3.4-.9.4-.6 0-1-.4-.2-.3-.2-.9 0-.5.3-.9.3-.3.9-.3zm15 19h-11.5v-1l9.7-11.3H276l.3-1.3h10.8v1l-9.6 11.3h9.8zm6.2.4q-1.8 0-3.1-1-1.3-1.1-1.3-2.8 0-5.1 9.1-5.1 0-2-1-3-.9-1-2.7-1-1.4 0-4.3.8l-.2-1.5q2.2-.7 4.6-.7 5.2 0 5.2 5.7v4.9q0 1.6.5 3.3l-1.4.3-.6-2.2q-1.8 2.3-4.8 2.3zm-2.8-4q0 1.2.8 2 .8.6 2 .6 1.6 0 3.1-1 1.6-1 1.6-2.4v-2.8q-7.5 0-7.5 3.5zM309 346l-.2 1.4q-5-.3-5-7.3v-13.4h1.6v12.9l.1 2.5q.1 1 .5 2t1.1 1.5q.8.4 1.9.4zm6.1 1.4q-1.8 0-3-1-1.3-1.1-1.3-2.8 0-5.1 9-5.1 0-2-1-3-.8-1-2.7-1-1.4 0-4.3.8l-.2-1.5q2.2-.7 4.6-.7 5.2 0 5.2 5.7v4.9q0 1.6.5 3.3l-1.4.3-.5-2.2q-1.9 2.3-4.9 2.3zm-2.7-4q0 1.2.7 2 .8.6 2 .6 1.7 0 3.2-1 1.5-1 1.5-2.4v-2.8q-7.4 0-7.4 3.5zm18.5 3.6q-2.4 5.3-6.3 6.3l-.4-1.3q3.4-.8 5.2-5.5l-.1-.4-5.7-12.7h1.7l5.1 11.5 4.8-11.5h1.7zm9.7 0h-1.5v-13.6h1.5zm15.7 0h-1.6v-7.7q0-4.9-4-4.9-1.7 0-3 1.4-1.3 1.3-1.3 3v8.2h-1.6v-10.3q0-1.2-.3-3.3h1.5q.3.8.4 2.4 1.5-2.7 4.5-2.7 5.4 0 5.4 6.2z"
+                    android:fillColor="#fff"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="1000"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="path_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="1000"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="path_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="1000"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="path_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueFrom="M 95 320 L 107 312 L 107 328 Z"
+                android:valueTo="M 53 320 L 65 312 L 65 328 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="path_4">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueFrom="M 232 187 L 240 175 L 248 187 Z"
+                android:valueTo="M 232 82 L 240 70 L 248 82 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="path_6">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="1000"
+                android:valueFrom="M 373 312 L 385 320 L 373 328 Z"
+                android:valueTo="M 415 312 L 427 320 L 415 328 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

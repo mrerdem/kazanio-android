@@ -1,0 +1,14 @@
+AB: TOP LINE'S VERTICAL CENTER POSITION (66 FOR MP)
+CD = AB + 9 (75, VERTICAL POS OF SCAN LINE WITH 16 WIDTH)
+EF = BOTTOM LINE'S VERTICAL CENTER POSITION (574)
+GH = EF - 9 (565)
+IJ = (GH - CD) * 2 (980, DURATION)
+KL = IJ + 64 (1044, START TIME)
+MN = KL + 32 (1076, START TIME)
+OP = MN + 32 (1108, START TIME)
+
+- Copy draft file.
+- Get the top position value (AB) from the viewfinder_overlay file.
+- Get the bottom position value (EF) from the viewfinder_overlay file.
+- Find and replace CD, GH, IJ, KL, MN, OP with numberic correspondences using CASE SENSITIVITY.
+
